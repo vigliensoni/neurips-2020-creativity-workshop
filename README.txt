@@ -1,0 +1,1 @@
+Simple HTML5 template page with a few nice features.
