@@ -73,6 +73,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+p span {
+	display: block;
+  }
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2664,17 +2669,23 @@ input, select, textarea {
 	}
 
 		a.image img {
-			-moz-transition: -moz-transform 0.2s ease-out;
-			-webkit-transition: -webkit-transform 0.2s ease-out;
-			-ms-transition: -ms-transform 0.2s ease-out;
-			transition: transform 0.2s ease-out;
+			-moz-transition: -moz-transform 1.5s ease-out;
+			-webkit-transition: -webkit-transform 1.5s ease-out;
+			-ms-transition: -ms-transform 1.5s ease-out;
+			transition: transform 1.5s ease-out;
 		}
 
 		a.image:hover img {
-			-moz-transform: scale(3.5);
-			-webkit-transform: scale(3.5);
-			-ms-transform: scale(3.5);
-			transform: scale(3.5);
+			-moz-transform: scale(1.25, 1.5);
+			-webkit-transform: scale(1.25, 1.5);
+			-ms-transform: scale(1.25, 1.5);
+			transform: scale(1.25, 1.5);
+
+			-webkit-transition: transform 1.05s ease-in-out;
+			-moz-transition:transform 1.05s ease-in-out;
+			-ms-transition:transform 1.05s ease-in-out;
+
+
 		}
 
 /* Actions */
