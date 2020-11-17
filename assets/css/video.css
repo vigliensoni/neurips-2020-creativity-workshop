@@ -12,9 +12,9 @@
     position:absolute;
 }
 
-/* .rvae-responsive{
+.rvae-responsive{
     overflow:hidden; 
-    padding-bottom:56.25%;
+    padding-bottom:130%;
     position:relative;
     height:0;
 }
@@ -25,6 +25,4 @@
     height:100%;
     width:100%;
     position:absolute;
-    -webkit-transform:scale(0.5);
-    -moz-transform-scale(0.5);
-} */
+}
