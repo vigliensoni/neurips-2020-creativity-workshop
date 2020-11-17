@@ -1,1 +1,1 @@
-Simple HTML5 template page with a few nice features.
+Web page for the NeurIPS 2020 Creativity workshop.
